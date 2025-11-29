@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - CityShop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    form {
+      max-width: 500px;
+      margin-top: 20px;
+    }
+    form label {
+      display: block;
+      margin-bottom: 15px;
+      font-weight: 500;
+      color: #1a1a1a;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #e9ecef;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 14px;
+    }
+    form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    form input:focus,
+    form textarea:focus {
+      outline: none;
+      border-color: #000;
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="main-wrapper">
+      <!-- Sidebar Navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-brand">CityShop</div>
+        <nav>
+          <ul class="sidebar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="shipping-info.html">Shipping Info</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="table.html">Data Table</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content Area -->
+      <div class="main-content">
+        <main class="content">
+          <div class="page-header">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you. Send us a message!</p>
+          </div>
+
+          <section>
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+              <label>
+                Full Name *
+                <input type="text" id="name" name="name" required>
+              </label>
+
+              <label>
+                Email Address *
+                <input type="email" id="email" name="email" required>
+              </label>
+
+              <label>
+                Message *
+                <textarea id="message" name="message" required></textarea>
+              </label>
+
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </section>
+
+          <section>
+            <h2>Contact Information</h2>
+            <ul>
+              <li><strong>Email:</strong> support@cityshop.com</li>
+              <li><strong>Phone:</strong> 1-800-CITYSHOP</li>
+              <li><strong>Address:</strong> 123 Urban Street, City Center, ST 12345</li>
+              <li><strong>Hours:</strong> Monday - Friday, 9 AM - 6 PM EST</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>We're Here to Help</h2>
+            <p>Have a question? Our dedicated customer support team is ready to assist you with any inquiries about our products or services.</p>
+            <ul>
+              <li>Questions about products or orders?</li>
+              <li>Need help with returns or refunds?</li>
+              <li>Looking for product recommendations?</li>
+              <li>Want to collaborate or partner with us?</li>
+            </ul>
+          </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+          <p>&copy; <span id="year">2025</span> CityShop. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

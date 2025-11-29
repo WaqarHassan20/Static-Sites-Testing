@@ -1,0 +1,168 @@
+<!doctype html>
+<!-- Contact Page - Get in touch with us via form, email, or phone -->
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Contact — CityShop</title>
+  <!-- External CSS stylesheet -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class='logo'>CityShop</div>
+      <ul class='nav'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='products.html'>Products</a></li>
+        <li><a href='services.html'>Services</a></li>
+        <li><a href='pricing.html'>Pricing</a></li>
+        <li><a href='offers.html'>Offers</a></li>
+        <li><a href='gallery.html'>Gallery</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='shipping-info.html'>Shipping</a></li>
+        <li><a href='track-order.html'>Track Order</a></li>
+        <li><a href='contact.html' class='active'>Contact</a></li>
+      </ul>
+    </aside>
+    
+    <main class="main">
+      <section class="page-hero">
+        <div class="page-hero-content">
+          <h1 class="page-hero-title">Get In Touch</h1>
+          <p class="page-hero-subtitle">We'd love to hear from you • Our team is ready to help</p>
+        </div>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section class="contact-form-wrapper">
+        <div class="contact-form-header">
+          <h2>Send Us a Message</h2>
+          <p>Fill out the form and we'll respond within 24 hours</p>
+        </div>
+        
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <input id="name" class="input" type="text" placeholder="Your Name *" required>
+            </div>
+
+            <div class="form-group">
+              <input id="email" class="input" type="email" placeholder="Email Address *" required>
+            </div>
+
+            <div class="form-group">
+              <input id="phone" class="input" type="tel" placeholder="Phone Number">
+            </div>
+
+            <div class="form-group">
+              <select id="subject" class="input" required>
+                <option value="">Select Inquiry Type *</option>
+                <option value="general">General Inquiry</option>
+                <option value="product">Product Question</option>
+                <option value="order">Order Support</option>
+                <option value="partnership">Partnership</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" class="input" placeholder="Your Message *" rows="6" required></textarea>
+            </div>
+
+            <div class="checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <span>Subscribe to our newsletter for exclusive deals</span>
+              </label>
+            </div>
+
+            <button type="submit" class="contact-submit-btn">
+              Send Message 📤
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact Info Cards -->
+      <section class="contact-info-section">
+        <div class="contact-info-header">
+          <h2>Contact Information</h2>
+          <p>Multiple ways to reach us</p>
+        </div>
+        
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <div class="icon">📧</div>
+            <h3>Email Us</h3>
+            <p><a href="mailto:support@cityshop.com">support@cityshop.com</a></p>
+            <p><a href="mailto:sales@cityshop.com">sales@cityshop.com</a></p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">📞</div>
+            <h3>Call Us</h3>
+            <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            <p><a href="tel:+1987654321">+1 (987) 654-321</a></p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">📍</div>
+            <h3>Visit Us</h3>
+            <p>123 City Street</p>
+            <p>Metro City, ST 12345</p>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon">⏰</div>
+            <h3>Business Hours</h3>
+            <p>Mon - Fri: 9 AM - 6 PM</p>
+            <p>Sat - Sun: 10 AM - 4 PM</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick FAQ Section -->
+      <section class="quick-faq-section">
+        <div class="quick-faq-header">
+          <h2>Quick Answers</h2>
+          <p>Common questions from our customers</p>
+        </div>
+        
+        <div class="quick-faq-grid">
+          <div class="quick-faq-card">
+            <h3>⚡ Response Time</h3>
+            <p>We respond to all inquiries within 24 business hours. For urgent matters, call us directly.</p>
+          </div>
+
+          <div class="quick-faq-card">
+            <h3>🔄 Returns & Exchanges</h3>
+            <p>30-day return policy on most items. Visit our <a href="shipping-info.html">shipping page</a> for details.</p>
+          </div>
+
+          <div class="quick-faq-card">
+            <h3>💰 Bulk Orders</h3>
+            <p>Special discounts available for bulk purchases. Contact <a href="mailto:sales@cityshop.com">sales@cityshop.com</a> for quotes.</p>
+          </div>
+        </div>
+      </section>
+
+      <div style="margin-top: 48px;"></div>
+
+      <!-- Footer Section -->
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">CS</div>
+            <span class="footer-logo-text">CityShop</span>
+          </div>
+          <p class="footer-copyright">&copy; <span id="year">2025</span> CityShop. All rights reserved.</p>
+          <p class="footer-tagline">Your trusted destination</p>
+        </div>
+      </footer>
+    </main>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

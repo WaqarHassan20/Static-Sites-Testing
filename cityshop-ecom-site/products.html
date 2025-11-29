@@ -1,0 +1,470 @@
+<!doctype html>
+<!-- Products Page - Browse our complete product catalog -->
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Products — CityShop</title>
+  <!-- External CSS for consistent styling -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class='logo'>CityShop</div>
+      <ul class='nav'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='products.html' class='active'>Products</a></li>
+        <li><a href='services.html'>Services</a></li>
+        <li><a href='pricing.html'>Pricing</a></li>
+        <li><a href='offers.html'>Offers</a></li>
+        <li><a href='gallery.html'>Gallery</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='shipping-info.html'>Shipping</a></li>
+        <li><a href='track-order.html'>Track Order</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+    </aside>
+    
+    <main class="main">
+      <section class="page-hero">
+        <div class="page-hero-content">
+          <h1 class="page-hero-title">Premium Product Collection</h1>
+          <p class="page-hero-subtitle">Discover quality items across all categories • Free shipping on orders over $50</p>
+        </div>
+      </section>
+
+      <!-- Filter and Sort Section -->
+      <section class="products-filter">
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label for="category">Category:</label>
+            <select id="category" class="input">
+              <option>All Products</option>
+              <option>Electronics</option>
+              <option>Fashion</option>
+              <option>Accessories</option>
+              <option>Footwear</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort">Sort By:</label>
+            <select id="sort" class="input">
+              <option>Featured</option>
+              <option>Price: Low to High</option>
+              <option>Price: High to Low</option>
+              <option>Newest First</option>
+              <option>Best Rated</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="price">Price Range:</label>
+            <select id="price" class="input">
+              <option>All Prices</option>
+              <option>Under $25</option>
+              <option>$25 - $100</option>
+              <option>$100 - $200</option>
+              <option>Over $200</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>Featured Products</h2>
+          <p class="section-subtitle">Handpicked selections from our premium collection</p>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop" alt="Classic Sneakers"></div>
+            <div class="product-info">
+              <h3>Classic Sneakers</h3>
+              <p class="product-desc">Comfortable everyday footwear with premium materials</p>
+              <div class="product-rating">★★★★★ <span>(4.8)</span></div>
+              <div class="product-footer">
+                <div class="price">$89.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge sale">Sale</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=300&fit=crop" alt="Leather Wallet"></div>
+            <div class="product-info">
+              <h3>Leather Wallet</h3>
+              <p class="product-desc">Genuine leather with multiple card slots</p>
+              <div class="product-rating">★★★★☆ <span>(4.5)</span></div>
+              <div class="product-footer">
+                <div class="price">$49.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400&h=300&fit=crop" alt="Sport Cap"></div>
+            <div class="product-info">
+              <h3>Sport Cap</h3>
+              <p class="product-desc">Breathable material perfect for outdoor activities</p>
+              <div class="product-rating">★★★★☆ <span>(4.3)</span></div>
+              <div class="product-footer">
+                <div class="price">$24.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">Trending</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop" alt="Minimal Backpack"></div>
+            <div class="product-info">
+              <h3>Minimal Backpack</h3>
+              <p class="product-desc">Spacious with ergonomic design for daily use</p>
+              <div class="product-rating">★★★★☆ <span>(4.7)</span></div>
+              <div class="product-footer">
+                <div class="price">$79.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">Hot</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop" alt="Smart Watch"></div>
+            <div class="product-info">
+              <h3>Smart Watch</h3>
+              <p class="product-desc">Advanced features with sleek design</p>
+              <div class="product-rating">★★★★★ <span>(4.9)</span></div>
+              <div class="product-footer">
+                <div class="price">$199.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop" alt="Designer Sunglasses"></div>
+            <div class="product-info">
+              <h3>Designer Sunglasses</h3>
+              <p class="product-desc">UV protection with timeless style</p>
+              <div class="product-rating">★★★★★ <span>(4.6)</span></div>
+              <div class="product-footer">
+                <div class="price">$129.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" alt="Premium Headphones"></div>
+            <div class="product-info">
+              <h3>Premium Headphones</h3>
+              <p class="product-desc">Noise-cancelling with crystal clear audio</p>
+              <div class="product-rating">★★★★★ <span>(4.8)</span></div>
+              <div class="product-footer">
+                <div class="price">$159.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?w=400&h=300&fit=crop" alt="Phone Stand"></div>
+            <div class="product-info">
+              <h3>Phone Stand</h3>
+              <p class="product-desc">Adjustable angle for all devices</p>
+              <div class="product-rating">★★★★☆ <span>(4.4)</span></div>
+              <div class="product-footer">
+                <div class="price">$19.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge sale">Sale</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="USB Cable Pack"></div>
+            <div class="product-info">
+              <h3>USB Cable Pack</h3>
+              <p class="product-desc">Durable multi-pack with different lengths</p>
+              <div class="product-rating">★★★★☆ <span>(4.2)</span></div>
+              <div class="product-footer">
+                <div class="price">$14.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400&h=300&fit=crop" alt="Fast Charger"></div>
+            <div class="product-info">
+              <h3>Fast Charger</h3>
+              <p class="product-desc">Quick charging technology for all devices</p>
+              <div class="product-rating">★★★★☆ <span>(4.5)</span></div>
+              <div class="product-footer">
+                <div class="price">$39.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&h=300&fit=crop" alt="Phone Case"></div>
+            <div class="product-info">
+              <h3>Phone Case</h3>
+              <p class="product-desc">Protective case with sleek design</p>
+              <div class="product-rating">★★★★☆ <span>(4.3)</span></div>
+              <div class="product-footer">
+                <div class="price">$29.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge sale">Sale</div>
+            <div class="product-img"><img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=400&h=300&fit=crop" alt="Screen Protector"></div>
+            <div class="product-info">
+              <h3>Screen Protector</h3>
+              <p class="product-desc">Tempered glass for maximum protection</p>
+              <div class="product-rating">★★★★☆ <span>(4.6)</span></div>
+              <div class="product-footer">
+                <div class="price">$9.99</div>
+                <button class="btn btn-primary add-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Comparison Table Section -->
+      <section style="margin-bottom: 48px;">
+        <div style="text-align: center; margin-bottom: 36px;">
+          <h2 style="color: #1e293b; font-size: 32px; font-weight: 800; margin-bottom: 12px;">Product Comparison</h2>
+          <p style="color: #64748b; font-size: 16px;">Compare prices, ratings, and availability at a glance</p>
+        </div>
+        
+        <div style="max-width: 1000px; margin: 0 auto; background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; border-radius: 20px; overflow: hidden; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1);">
+          <table style="width: 100%; border-collapse: collapse;">
+            <thead>
+              <tr style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);">
+                <th style="padding: 18px 20px; text-align: left; color: white; font-weight: 700; font-size: 15px;">Product Name</th>
+                <th style="padding: 18px 20px; text-align: left; color: white; font-weight: 700; font-size: 15px;">Price</th>
+                <th style="padding: 18px 20px; text-align: left; color: white; font-weight: 700; font-size: 15px;">Rating</th>
+                <th style="padding: 18px 20px; text-align: left; color: white; font-weight: 700; font-size: 15px;">Status</th>
+                <th style="padding: 18px 20px; text-align: left; color: white; font-weight: 700; font-size: 15px;">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid rgba(37, 99, 235, 0.1);">
+                <td style="padding: 18px 20px;">
+                  <div style="font-weight: 700; color: #1e293b; margin-bottom: 4px;">Classic Sneakers</div>
+                  <div style="font-size: 12px; color: #64748b;">Comfortable everyday footwear</div>
+                </td>
+                <td style="padding: 18px 20px; color: #2563eb; font-weight: 700; font-size: 16px;">$89.99</td>
+                <td style="padding: 18px 20px;">
+                  <div style="color: #f59e0b; margin-bottom: 2px;">★★★★★</div>
+                  <div style="color: #64748b; font-size: 12px;">(4.8)</div>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <span style="background: rgba(34, 197, 94, 0.1); color: #16a34a; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600;">In Stock</span>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <button class="btn add-to-cart" style="padding: 8px 16px; font-size: 13px; white-space: nowrap; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s;">Add to Cart</button>
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(37, 99, 235, 0.1);">
+                <td style="padding: 18px 20px;">
+                  <div style="font-weight: 700; color: #1e293b; margin-bottom: 4px;">Leather Wallet</div>
+                  <div style="font-size: 12px; color: #64748b;">Genuine leather with card slots</div>
+                </td>
+                <td style="padding: 18px 20px; color: #2563eb; font-weight: 700; font-size: 16px;">$49.99</td>
+                <td style="padding: 18px 20px;">
+                  <div style="color: #f59e0b; margin-bottom: 2px;">★★★★☆</div>
+                  <div style="color: #64748b; font-size: 12px;">(4.5)</div>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <span style="background: rgba(34, 197, 94, 0.1); color: #16a34a; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600;">In Stock</span>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <button class="btn add-to-cart" style="padding: 8px 16px; font-size: 13px; white-space: nowrap; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s;">Add to Cart</button>
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(37, 99, 235, 0.1);">
+                <td style="padding: 18px 20px;">
+                  <div style="font-weight: 700; color: #1e293b; margin-bottom: 4px;">Smart Watch</div>
+                  <div style="font-size: 12px; color: #64748b;">Advanced features with sleek design</div>
+                </td>
+                <td style="padding: 18px 20px; color: #2563eb; font-weight: 700; font-size: 16px;">$199.99</td>
+                <td style="padding: 18px 20px;">
+                  <div style="color: #f59e0b; margin-bottom: 2px;">★★★★★</div>
+                  <div style="color: #64748b; font-size: 12px;">(4.9)</div>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <span style="background: rgba(34, 197, 94, 0.1); color: #16a34a; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600;">In Stock</span>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <button class="btn add-to-cart" style="padding: 8px 16px; font-size: 13px; white-space: nowrap; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s;">Add to Cart</button>
+                </td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(37, 99, 235, 0.1);">
+                <td style="padding: 18px 20px;">
+                  <div style="font-weight: 700; color: #1e293b; margin-bottom: 4px;">Minimal Backpack</div>
+                  <div style="font-size: 12px; color: #64748b;">Spacious with ergonomic design</div>
+                </td>
+                <td style="padding: 18px 20px; color: #2563eb; font-weight: 700; font-size: 16px;">$79.99</td>
+                <td style="padding: 18px 20px;">
+                  <div style="color: #f59e0b; margin-bottom: 2px;">★★★★☆</div>
+                  <div style="color: #64748b; font-size: 12px;">(4.7)</div>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <span style="background: rgba(34, 197, 94, 0.1); color: #16a34a; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600;">In Stock</span>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <button class="btn add-to-cart" style="padding: 8px 16px; font-size: 13px; white-space: nowrap; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s;">Add to Cart</button>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 18px 20px;">
+                  <div style="font-weight: 700; color: #1e293b; margin-bottom: 4px;">Premium Headphones</div>
+                  <div style="font-size: 12px; color: #64748b;">Noise-cancelling audio</div>
+                </td>
+                <td style="padding: 18px 20px; color: #2563eb; font-weight: 700; font-size: 16px;">$159.99</td>
+                <td style="padding: 18px 20px;">
+                  <div style="color: #f59e0b; margin-bottom: 2px;">★★★★★</div>
+                  <div style="color: #64748b; font-size: 12px;">(4.8)</div>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <span style="background: rgba(34, 197, 94, 0.1); color: #16a34a; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600;">In Stock</span>
+                </td>
+                <td style="padding: 18px 20px;">
+                  <button class="btn add-to-cart" style="padding: 8px 16px; font-size: 13px; white-space: nowrap; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.3s;">Add to Cart</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Product Categories Section -->
+      <section>
+        <div class="section-header">
+          <h2>Browse by Category</h2>
+          <p class="section-subtitle">Explore our curated product collections</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 32px;">
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">👟</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Footwear</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Sneakers, boots, sandals, and athletic shoes</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">150+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">👜</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Accessories</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Wallets, belts, hats, scarves, and jewelry</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">200+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">🎧</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Electronics</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Headphones, chargers, cables, and adapters</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">180+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">⌚</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Wearables</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Smartwatches, fitness trackers, and bands</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">95+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">🎒</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Bags & Luggage</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Backpacks, crossbody bags, and travel gear</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">120+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">🕶️</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Eyewear</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Sunglasses, optical frames, and cases</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #dbeafe; color: #1e40af; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">85+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">⭐</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Premium Collection</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Limited edition and exclusive items</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #fef3c7; color: #92400e; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">50+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">🎯</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Trending Now</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">New arrivals and seasonal favorites</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #fce7f3; color: #9f1239; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">75+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+          
+          <div style="background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border-left: 2px solid #2563eb; border-right: 2px solid #2563eb; padding: 24px; border-radius: 20px; box-shadow: 0 2px 12px rgba(37, 99, 235, 0.1); transition: all 0.3s; cursor: pointer;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(37, 99, 235, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 12px rgba(37, 99, 235, 0.1)'">
+            <div style="font-size: 40px; margin-bottom: 12px;">🔥</div>
+            <h3 style="color: #1e293b; margin-bottom: 8px; font-size: 18px; font-weight: 700;">Sale Items</h3>
+            <p style="color: #64748b; font-size: 14px; line-height: 1.6; margin-bottom: 12px;">Discounted products and clearance deals</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px;">
+              <span style="background: #fee2e2; color: #991b1b; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: 600;">100+ Items</span>
+              <span style="color: #2563eb; font-size: 13px; font-weight: 600;">Browse →</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div style="margin-top: 48px;"></div>
+
+      <!-- Footer Section -->
+      <footer style="background: linear-gradient(135deg, #1e293b 0%, #334155 100%); padding: 16px 24px; border-radius: 8px; margin-top: 32px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <div style="width: 28px; height: 28px; background: white; color: #2563eb; display: flex; align-items: center; justify-content: center; border-radius: 5px; font-weight: 800; font-size: 13px;">CS</div>
+            <span style="color: white; font-size: 16px; font-weight: 700;">CityShop</span>
+          </div>
+          <p style="color: #cbd5e1; font-size: 13px; margin: 0;">&copy; 2025 CityShop. All rights reserved.</p>
+          <p style="color: #94a3b8; font-size: 12px; margin: 0;">Your trusted destination • <a href="https://www.cityshop.com" target="_blank" style="color: #94a3b8; text-decoration: underline;">Visit Our Store</a></p>
+        </div>
+      </footer>
+    </main>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

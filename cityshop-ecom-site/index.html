@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>CityShop — Premium E-Commerce</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <!-- Main container with flex layout -->
+  <div class="container">
+    <!-- Right-side navigation sidebar -->
+    <aside class="sidebar">
+      <div class='logo'>CityShop</div>
+      <!-- Navigation menu with links to all 10 pages -->
+      <ul class='nav'>
+        <li><a href='index.html' class='active'>Home</a></li>
+        <li><a href='products.html' class=''>Products</a></li>
+        <li><a href='services.html' class=''>Services</a></li>
+        <li><a href='pricing.html' class=''>Pricing</a></li>
+        <li><a href='offers.html' class=''>Offers</a></li>
+        <li><a href='gallery.html' class=''>Gallery</a></li>
+        <li><a href='about.html' class=''>About</a></li>
+        <li><a href='shipping-info.html' class=''>Shipping</a></li>
+        <li><a href='track-order.html' class=''>Track Order</a></li>
+        <li><a href='contact.html' class=''>Contact</a></li>
+      </ul>
+    </aside>
+    
+    <!-- Main content area -->
+    <main class="main">
+      <!-- Header Section -->
+      <header class="page-header">
+        <div class="header-content">
+          <div class="header-logo">
+            <div class="logo-icon">CS</div>
+            <div class="logo-text">
+              <h1>CityShop</h1>
+              <div>
+                <span class="tagline">Premium</span>
+                <span class="tagline">Shopping</span>
+              </div>
+            </div>
+          </div>
+          <div class="header-actions">
+            <div class="user-icon">
+              <span>👤</span>
+            </div>
+            <button class="logout-button" onclick="alert('Logged out successfully!')">Logout</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Section with Call-to-Action -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Welcome to CityShop</h1>
+          <p class="hero-subtitle">Your One-Stop Destination for Premium Lifestyle Products</p>
+          <p class="hero-description">Discover curated collections of fashion, electronics, home essentials, and more. Shop with confidence - quality guaranteed, fast shipping, easy returns.</p>
+          <div class="hero-buttons">
+            <a href="products.html" class="btn btn-primary">Shop Now</a>
+            <a href="about.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- What We Offer -->
+      <section class="info-section">
+        <div class="section-header">
+          <h2>What Makes CityShop Special?</h2>
+          <p class="section-subtitle">We're not just another online store - we're your trusted shopping partner</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?w=80&h=80&fit=crop" alt="Fast Shipping" style="width:80px;height:80px;border-radius:50%;margin-bottom:12px;object-fit:cover">
+            </div>
+            <h3>Fast & Free Shipping</h3>
+            <p>Free delivery on orders over $75. Express shipping available for urgent needs.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=80&h=80&fit=crop" alt="Quality Guaranteed" style="width:80px;height:80px;border-radius:50%;margin-bottom:12px;object-fit:cover">
+            </div>
+            <h3>Quality Guaranteed</h3>
+            <p>All products verified for authenticity. 30-day money-back guarantee on every purchase.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=80&h=80&fit=crop" alt="Secure Shopping" style="width:80px;height:80px;border-radius:50%;margin-bottom:12px;object-fit:cover">
+            </div>
+            <h3>Secure Shopping</h3>
+            <p>SSL encryption & trusted payment gateways. Your data is always protected.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=80&h=80&fit=crop" alt="24/7 Support" style="width:80px;height:80px;border-radius:50%;margin-bottom:12px;object-fit:cover">
+            </div>
+            <h3>24/7 Customer Care</h3>
+            <p>Expert support team ready to assist via chat, email, or phone anytime.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shop By Category -->
+      <section class="categories-section">
+        <div class="section-header">
+          <h2>Shop By Category</h2>
+          <p class="section-subtitle">Browse our extensive collection across multiple categories</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 32px;">
+          <a href="products.html" class="category-card">
+            <div class="icon">👗</div>
+            <h3>Fashion & Apparel</h3>
+            <p>Trendy styles for every occasion</p>
+            <span class="explore-link">Explore →</span>
+          </a>
+          
+          <a href="products.html" class="category-card">
+            <div class="icon">💻</div>
+            <h3>Electronics & Gadgets</h3>
+            <p>Latest tech at best prices</p>
+            <span class="explore-link">Explore →</span>
+          </a>
+          
+          <a href="products.html" class="category-card">
+            <div class="icon">🏠</div>
+            <h3>Home & Living</h3>
+            <p>Transform your living space</p>
+            <span class="explore-link">Explore →</span>
+          </a>
+          
+          <a href="products.html" class="category-card">
+            <div class="icon">⚽</div>
+            <h3>Sports & Outdoors</h3>
+            <p>Gear up for adventure</p>
+            <span class="explore-link">Explore →</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- About CityShop -->
+      <section class="about-section" style="margin: 48px 0;">
+        <div class="section-header">
+          <h2>About CityShop</h2>
+          <p class="section-subtitle">Your trusted online shopping destination since 2015</p>
+        </div>
+        <div class="about-section-grid">
+          <div class="about-info-card">
+            <div class="icon">🎯</div>
+            <h3>Who We Are</h3>
+            <p>A premier e-commerce platform serving 50,000+ happy customers worldwide. We curate quality products across fashion, electronics, home essentials, and outdoor gear.</p>
+          </div>
+          
+          <div class="about-info-card">
+            <div class="icon">✨</div>
+            <h3>What We Offer</h3>
+            <div class="benefits-list">
+              <div>✓ Authentic verified products</div>
+              <div>✓ Best prices guaranteed</div>
+              <div>✓ Fast & reliable delivery</div>
+              <div>✓ 24/7 customer support</div>
+            </div>
+          </div>
+          
+          <div class="about-info-card">
+            <div class="icon">🤝</div>
+            <h3>Our Promise</h3>
+            <p>30-day money-back guarantee on every purchase. Join our community of smart shoppers who value quality, convenience, and trust.</p>
+          </div>
+        </div>
+        
+        <div class="about-section-actions">
+          <a href="products.html" class="btn btn-primary">Browse Our Collection</a>
+          <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
+        </div>
+      </section>
+
+      <!-- How It Works -->
+      <section class="how-it-works">
+        <div class="section-header">
+          <h2>How CityShop Works</h2>
+          <p class="section-subtitle">Shopping made simple in just a few steps</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Browse & Discover</h3>
+            <p>Explore our extensive catalog of products across fashion, electronics, home goods, and more. Use filters to find exactly what you need.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Add to Cart</h3>
+            <p>Found something you love? Add it to your cart. Review your selections and apply any discount codes at checkout.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Secure Checkout</h3>
+            <p>Complete your purchase with our secure payment gateway. Multiple payment options available including cards, PayPal, and more.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3>Fast Delivery</h3>
+            <p>Sit back and relax! We'll process and ship your order quickly. Track your package every step of the way to your doorstep.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust Indicators -->
+      <section class="trust-section">
+        <div class="section-header">
+          <h2>Why 50,000+ Customers Trust Us</h2>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Premium Quality</strong> - All products verified and tested</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Best Prices</strong> - Price match guarantee available</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Fast Delivery</strong> - Same-day dispatch on most orders</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Easy Returns</strong> - Hassle-free 30-day return policy</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Secure Payments</strong> - Multiple safe payment options</p>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <p><strong>Expert Support</strong> - Real humans ready to help 24/7</p>
+          </div>
+        </div>
+      </section>
+
+      <div style="margin-top: 48px;"></div>
+
+      <!-- Footer Section -->
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">CS</div>
+            <span class="footer-logo-text">CityShop</span>
+          </div>
+          <p class="footer-copyright">&copy; <span id="year">2025</span> CityShop. All rights reserved.</p>
+          <p class="footer-tagline">Your trusted destination • <a href="https://www.cityshop.com" target="_blank" style="color: #94a3b8; text-decoration: underline;">Visit Our Store</a></p>
+        </div>
+      </footer>
+    </main>
+  </div>
+  
+  <!-- External JS file for interactivity -->
+  <script src="js/script.js"></script>
+</body>
+</html>
